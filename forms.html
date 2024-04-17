@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags Examples</title>
+  </head>
+  <body>
+    <!-- Example of <label> tag -->
+    <!-- This label is associated with the input field below -->
+    <label for="username">Username:</label>
+    <br />
+    <br />
+    <!-- Example of <input> tag -->
+    <!-- This input field allows users to enter text -->
+    <input type="text" id="username" name="username" />
+    <br />
+    <br />
+
+    <!-- Example of <input> tag with placeholder -->
+    <!-- Placeholder text provides guidance to users -->
+    <input type="text" placeholder="Enter your text here" />
+    <br />
+    <br />
+
+    <!-- Example of <button> tag -->
+    <!-- This button triggers an alert when clicked -->
+    <button onclick="alert('Button clicked')">Click me</button>
+    <br />
+    <br />
+
+    <!-- Example of <select> tag -->
+    <!-- This select dropdown allows users to choose options -->
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <br />
+    <br />
+
+    <!-- Example of <textarea> tag -->
+    <!-- This textarea allows users to input multiple lines of text -->
+    <textarea rows="4" cols="50">
+    Enter your long text here...
+  </textarea
+    >
+
+    <br />
+    <br />
+
+    <!-- Example of <fieldset> and <legend> tags -->
+    <!-- Fieldset groups related form elements together -->
+    <fieldset>
+      <!-- Legend provides a caption for the fieldset -->
+      <legend>Group</legend>
+      <!-- Checkboxes allow users to select multiple options -->
+      <input type="checkbox" id="checkbox1" name="checkbox1" />
+      <label for="checkbox1">Checkbox 1</label><br />
+      <input type="checkbox" id="checkbox2" name="checkbox2" />
+      <label for="checkbox2">Checkbox 2</label><br />
+      <input type="checkbox" id="checkbox3" name="checkbox3" />
+      <label for="checkbox3">Checkbox 3</label><br />
+    </fieldset>
+
+    <br />
+    <br />
+
+    <!-- Example of <datalist> tag -->
+    <!-- Datalist provides a predefined list of options for input -->
+    <input list="browsers" name="browser" />
+
+    <br />
+    <br />
+
+    <!-- List of options for the input field -->
+    <datalist id="browsers">
+      <option value="Chrome"></option>
+      <option value="Firefox"></option>
+      <option value="Edge"></option>
+      <option value="Safari"></option>
+      <option value="Opera"></option>
+    </datalist>
+
+    <br />
+    <br />
+
+    <!-- Example of <output> tag -->
+    <!-- Output displays the result of a calculation or operation -->
+    <output name="result">Result will appear here</output>
+
+    <!-- radio buttons
+Met de <input> tag kunnen we naast alfanumerieke invoer ook 
+nog radio buttons toevoegen.-->
+    <label>Male <input type="radio" name="gender" value="male" /></label>
+    <label>Female <input type="radio" name="gender" value="female" /></label>
+
+    <br />
+    <br />
+
+    <!-- checkbox-->
+    <!-- can sign all -->
+    <ul>
+      <li><input type="checkbox" name="language" value="Dutch" /></li>
+      <li><input type="checkbox" name="language" value="French" /></li>
+      <li><input type="checkbox" name="language" value="German" /></li>
+    </ul>
+
+    <!-- Radio buttons -->
+
+    <form>
+      <ul>
+        <li><input type="radio" name="language" value="Dutch" /> Dutch</li>
+        <li><input type="radio" name="language" value="French" /> French</li>
+        <li><input type="radio" name="language" value="German" /> German</li>
+      </ul>
+    </form>
+
+    <!-- 
+    action="test.php": Specifies the URL (or file path) where the form data will be submitted. 
+    In this case, 
+    the form data will be sent to a PHP script named "test.php".
+
+
+    method="post": Specifies the HTTP method used to submit the form data. 
+    In this case, the data will be sent using the POST method, 
+    which is commonly used for submitting form data.
+  -->
+
+    <form action="test.php" method="post"></form>
+  </body>
+</html>
