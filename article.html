@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Een bepaald document kan meerdere artikelen bevatten,
+         op een blog die de tekst van elk artikel één voor één toont terwijl de gebruiker scrolt,
+          zou elk bericht bijvoorbeeld in een <article>-element staan, mogelijk met een 
+            of meer <section>-tags binnen in het <article> element. Zoals in het voorbeeld hieronder.-->
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+    
+    <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+    </article>
+    
+    <article>
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+    </article>
+
+
+     <!-- EXTRA -->
+     <article class="film_review">
+        <h2>Jurassic Park</h2>
+        <section class="main_review">
+          <h3>Review</h3>
+          <p>Dinos were great!</p>
+        </section>
+        <section class="user_reviews">
+          <h3>User reviews</h3>
+          <article class="user_review">
+            <h4>Too scary!</h4>
+            <p>Way too scary for me.</p>
+            <footer>
+              <p>
+                Posted on
+                <time datetime="2015-05-16 19:00">May 16</time>
+                by Lisa.
+              </p>
+            </footer>
+          </article>
+          <article class="user_review">
+            <h4>Love the dinos!</h4>
+            <p>I agree, dinos are my favorite.</p>
+            <footer>
+              <p>
+                Posted on
+                <time datetime="2015-05-17 19:00">May 17</time>
+                by Tom.
+              </p>
+            </footer>
+          </article>
+        </section>
+        <footer>
+          <p>
+            Posted on
+            <time datetime="2015-05-15 19:00">May 15</time>
+            by Staff.
+          </p>
+        </footer>
+      </article>
+
+
+</body>
+</html>
