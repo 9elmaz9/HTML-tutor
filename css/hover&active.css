@@ -1,0 +1,25 @@
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+/* hover - navedenie ykazaniua mishi*/
+a:hover{
+color: black;
+text-decoration: line-through ;
+font-size: large;
+}
+
+
+/* activatsia */
+a:active{
+
+color: aqua;
+background-color: blanchedalmond;
+font-size: xx-large;
+font-weight: 900;
+
+
+}

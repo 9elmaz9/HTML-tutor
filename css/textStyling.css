@@ -1,0 +1,19 @@
+.test9 {
+color: aqua;
+}
+
+.test78 {
+    letter-spacing: 15px;
+}
+
+.test79 {
+color: blue;
+    line-height: 25px;
+    width: 150px;
+    height: 200px;
+    background-color: beige;
+    direction:rtl ; 
+    text-align: justify;
+
+
+}

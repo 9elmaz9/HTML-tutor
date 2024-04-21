@@ -1,0 +1,16 @@
+.pxtest100{
+    font-family:'times new roman',arial,tahoma ;
+    font-style: italic;
+    font-weight: 800;
+    /*font-size: xx-large;*/
+    /*font-size: large;*/
+    font-size:medium ; /*medium is  default size and  = 16px*/
+
+}
+
+/* videlit slovo is teksta*/
+.test100 span{
+font-size: xx-large;
+font-weight:lighter ;
+
+}

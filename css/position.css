@@ -1,0 +1,39 @@
+/*
+body{
+    height: 3000px;
+}
+
+img{
+
+    width: 200px;
+    height:200px ;
+    /* position: static; /* default*/ 
+
+    /* при скроле не двигается 
+     position: fixed;
+     top: 200px;
+     right:300px ; */ 
+
+
+     /*двигается при скроле */
+/*     position: relative;  */
+     /*top: 400px; */
+/*     bottom: 30px;}  
+*/
+
+.parent{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 140px;
+    position: relative;
+}
+
+.child{
+    background-color: rgb(144, 255, 144);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+

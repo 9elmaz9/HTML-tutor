@@ -1,0 +1,19 @@
+b{
+    background-color: aqua;
+}
+
+
+p{
+    color: red;
+}
+
+
+.class-selector{
+    background-color: brown;
+}
+
+#id-selector{
+background-color: beige;
+color:brown ;
+
+}

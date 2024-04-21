@@ -1,0 +1,33 @@
+*{margin: 0;}
+
+.test110{
+    font-family: 'times new roman', arial, tahoma;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(240, 198, 13);
+    border: 18px solid salmon;
+    /*margin: 20px; ;*/
+
+    /* top - right - bottom - left  */ 
+margin:  50px 60px 30px 50px;
+
+/* this type variant 
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+*/
+
+
+}
+
+/*another different clas*/
+.test112{
+    font-family: 'times new roman', arial, tahoma;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(240, 198, 13);
+    border: 18px solid salmon;
+    margin:auto ;
+
+}

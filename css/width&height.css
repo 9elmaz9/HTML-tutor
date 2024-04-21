@@ -1,0 +1,35 @@
+.container{
+background-color: beige;
+max-width: 200px;
+min-height: 100px;
+max-height: 300px;
+min-width: 200px;
+
+
+
+
+/*
+width: auto;
+height: auto;*/
+
+
+/*width: 200px;
+height: 100px;*/
+}
+
+
+.child{
+background-color: cadetblue;
+
+
+
+/**/
+
+width: auto;
+height: auto;
+
+/**/
+/*
+width: 100px;
+height: 50px;*/
+}

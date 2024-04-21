@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="welcome to my website">
+    <title>test</title>
+    <link rel="icon" href="puzzle.jpg">
+    <meta name="viewport" content="width-device-width" initial-scale-1.0>
+    <link rel="stylesheet" href="priorities.css">
+</head>
+<body>
+
+    <!--
+<div class="priorities">
+    <p>
+        test
+    </p>
+</div>
+-->
+<!-- приоритет там где <style> -->
+<style>
+    .priorities{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:350px ;
+}
+</style>
+
+<!-- но если и сюда вставить <style> то приоритет  перейдет сюда -->
+<div class="priorities"  style="font-family: 'Courier New', Courier, monospace;
+font-size:350px ;">
+<p>test</p>
+</div>
+</body>
+</html>

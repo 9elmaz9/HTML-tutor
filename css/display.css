@@ -1,0 +1,13 @@
+div{
+    /* make din inline */
+display: inline-block;
+}
+
+span{
+    display: block;
+}
+
+img{
+    /*display: block;*/
+    display: none; /* nicks  */
+}
